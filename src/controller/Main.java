@@ -31,7 +31,7 @@ public class Main extends Application
 	
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/Main.fxml"));
 		Parent root = loader.load();
-		Scene scene = new Scene(root, (0.75 * width), (0.75 * height));
+		Scene scene = new Scene(root, (0.25 * width), (0.25 * height));
 		
 		stage.setTitle("Resizable Program");
 		stage.setScene(scene);
