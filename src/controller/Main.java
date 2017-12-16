@@ -12,6 +12,7 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 //Learning purposes only
+//Getting program to adjust button text correctly, cross platform.
 
 public class Main extends Application
 {
